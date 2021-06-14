@@ -1,0 +1,528 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <title>ALFA</title>
+</head>
+
+<body>
+
+    <div class="container-fluid" id="home">
+
+        <nav>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#home">Home</a>
+                <a href="#nasaprica">Naša priča</a>
+                <a href="#studenti">Studenti</a>
+                <a href="#foto">Fotogalerija</a>
+                <a href="#cilj">Ciljevi</a>
+                <a href="#certifikat">Certifikati</a>
+                <a href="#kontakt">Kontakt</a>
+            </div>
+
+            <div class="pt-2 ps-2 hov">
+                <span style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+            </div>
+        </nav>
+
+    </div>
+
+    <div class="container">
+        <header>
+            <div class="d-flex justify-content-center mt-2">
+                <a href="#">
+                    <h1 class="display-3">ALFA</h1>
+                </a>
+            </div>
+        </header>
+
+        <div class="jumbo d-flex justify-content-center mt-4">
+            <h1>
+                Dobrodošli na našu web stranicu
+            </h1>
+        </div>
+
+        <div class="jumbo-p mt-5 mb-5">
+            <p>Web stranica izrađena u svrhu predmeta <br><b>Projektno programiranje</b></p>
+        </div>
+
+    </div>
+
+    <div class="container-fluid size ">
+
+        <div class=" container pt-5 pb-4 col-md-12" id="nasaprica">
+
+            <div class="d-flex justify-content-center">
+
+                <div class="row">
+                    <div class="mt-3 ps-5 col-lg-6 col-md-12 col-sm-12 ">
+                        <h2 class="h2-color">Naša priča</h2>
+                        <p class="fw-normal pt-3 grey">
+                            Početkom semestra oformili smo tim od 5 ljudi. Zadatak nam je predstaviti naš tim preko web
+                            stranice. Projekt smo radili kroz 3 faze.
+                            Započeli smo s dokumentacijom, izradom plana, sadržaja itd. Nakon toga smo osmislili izgled
+                            stranice, te napravili prototip u figmi. I na kraju je došla izrada.
+                        </p>
+                    </div>
+
+                    <div class="pb-3 col-lg-6 col-md-12 col-sm-12  d-flex justify-content-center">
+                        <img class="ml-4 shadow-1-strong rounded" src="img/img1.jpg" width="500px" alt="grupa ljudi">
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <div id="studenti"></div>
+
+    <div class="container mt-5">
+
+        <div class="row mb-lg-5 mb-sm-0 mx-auto">
+
+
+            <div class="col-lg-4 mb-sm-3">
+
+                <div class="card" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#profil1">
+
+                    <img src="img/lucas1.jpg" class="card-img-top ">
+                    <div class="card-body">
+                        <h3 class="card-title text-center">K M</h3>
+                        <p class="card-text">Organizacija i informatizacija</p>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="profil1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="d-flex">
+                                        <img src="img/lucas1.jpg" alt="m">
+
+                                        <div class="opis">
+                                            <h1 class="naslov-color">K M</h1>
+                                            <p>Godine:</p>
+                                            <p>Unesi nešto o sebi, zanimanje...</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer"> </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-lg-4 mb-sm-3">
+                <div class="card " style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#profil2">
+                    <img src="img/lucas1.jpg" class="card-img-top " alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title text-center">T I</h3>
+                        <p class="card-text">Stručni studij elektrotehnike</p>
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="profil2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="d-flex">
+                                        <img src="img/lucas1.jpg" alt="">
+
+                                        <div class="opis">
+                                            <h1 class="naslov-color">T I</h1>
+                                            <p>Godine:</p>
+                                            <p>Unesi nešto o sebi, zanimanje...</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer"> </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-lg-4 mb-sm-3">
+                <div class="card" style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#profil3">
+                    <img src="img/petar.png" class="card-img-top " alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title text-center">Petar Gruden</h3>
+                        <p class="card-text">Organizacija i informatizacija</p>
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="profil3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="d-flex">
+                                        <img src="img/petar.png" alt="petar gruden" class="modulslike opis">
+
+                                        <div class="opis">
+                                            <h1 class="naslov-color">Petar Gruden</h1>
+                                            <p>Godine: 21</p>
+                                            <p>Najviše ga interesira <b>frontend</b>, no otvoren je i za backend, iako
+                                                nema previše iskustva u tom području. Dobro se snalazi s HTML-om,
+                                                CSS/SCSS-om, Bootstrap frameworkom, te sad počinje malo ozbiljnije učiti
+                                                raditi s JavaScript-om. Od ostalih programskih jezika, stekao je
+                                                određeno znanje iz PHP-a s kojim se je susreo na fakultetu, C/C++ koji
+                                                su mu poznati još od srednjoškolskih dana, osnove SQL-a.</p>
+                                            <p>U slobodno vrijeme voli gledati filmove i serije, igrati nogomet, također
+                                                voli igrat šah, te se družiti s drugima.</p>
+                                            <p>Ako vas zanima nešto u vezi stranice, nemojte njemu slati upit, jer
+                                                odgovor stiže istom brzinom kojom putuje paket iz Kine na vašu adresu u
+                                                doba COVID-a.</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer"> </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row mb-5 mx-auto d-flex justify-content-center">
+            
+                
+                <div class="col-lg-4 mb-sm-3">
+                    <div class="card " style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#profil4">
+                        <img src="img/lucas1.jpg" class="card-img-top" width="">
+                        <div class="card-body">
+                            <h3 class="card-title text-center">L L V</h3>
+                            <p class="card-text">Organizacija i informatizacija</p>
+                        </div>
+    
+                        <!-- Modal -->
+                        <div class="modal fade" id="profil4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+    
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="d-flex">
+                                            <img src="img/lucas1.jpg" alt="lucas">
+    
+                                            <div class="opis">
+                                                <h1 class="naslov-color">L L V</h1>
+                                                <p>Godine:</p>
+                                                <p>Unesi nešto o sebi, zanimanje...</p>
+                                            </div>
+                                        </div>
+    
+                                    </div>
+                                    <div class="modal-footer"> </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+                
+    
+                <div class="col-lg-4">
+                    <div class="card  col-lg-6 " style="width: 18rem;" data-bs-toggle="modal" data-bs-target="#profil5">
+                        <img src="img/lucas1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title text-center">K S</h3>
+                            <p class="card-text">Organizacija i informatizacija</p>
+                        </div>
+    
+                        <!-- Modal -->
+                        <div class="modal fade" id="profil5" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+    
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="d-flex">
+                                            <img src="img/lucas1.jpg" alt="lucas1.jpg">
+    
+                                            <div class="opis">
+                                                <h1 class="naslov-color">Karlo lucas1.jpg</h1>
+                                                <p>Godine:</p>
+                                                <p>Unesi nešto o sebi, zanimanje...</p>
+                                            </div>
+                                        </div>
+    
+                                    </div>
+                                    <div class="modal-footer"> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            
+
+        </div>
+
+    </div>
+
+    <div class="container-fluid size" id="foto">
+
+        <div class="h2-color container pt-5 pb-4">
+
+            <h2 class="pb-4">Fotogalerija</h2>
+
+            <!-- Gallery -->
+            <div class="row">
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg"
+                        class="w-100 shadow-1-strong rounded mb-4" alt="" />
+
+                    <img src="https://mdbootstrap.com/img/Photos/Vertical/mountain1.jpg"
+                        class="w-100 shadow-1-strong rounded mb-4" alt="" />
+                </div>
+
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img src="https://mdbootstrap.com/img/Photos/Vertical/mountain2.jpg"
+                        class="w-100 shadow-1-strong rounded mb-4" alt="" />
+
+                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg"
+                        class="w-100 shadow-1-strong rounded mb-4" alt="" />
+                </div>
+
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
+                        class="w-100 shadow-1-strong rounded mb-4" alt="" />
+
+                    <img src="https://mdbootstrap.com/img/Photos/Vertical/mountain3.jpg"
+                        class="w-100 shadow-1-strong rounded mb-4" alt="" />
+                </div>
+            </div>
+            <!-- End of Gallery -->
+
+        </div>
+
+    </div>
+
+    <div class="container pt-5 pb-4" id="cilj">
+
+        <div class="d-flex justify-content-center">
+
+            <div class="row">
+                <div class="pb-3 col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center">
+                    <img class="ml-4 shadow-1-strong rounded" src="img/img1.jpg" width="500px" alt="grupa ljudi">
+                </div>
+
+
+                <div class="mt-3 ps-5 col-lg-6 col-md-12 col-sm-12">
+                    <h2 class="naslov-color">Ciljevi i ambicije</h2>
+                    <p class="fw-normal pt-3">
+                        Cilj projekta je usavršavanje, učenje i izrada projekta po zadanim smjernicama. Razumjeti proces
+                        stvaranja web aplikacija/stranica
+                    </p>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="container-fluid size" id="certifikat">
+
+        <div class="h2-color container pt-5 pb-4">
+
+            <div class="d-flex justify-content-center">
+                <h2 class="pb-4 ">Certifikati</h2>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <img src="img/cisco.png" alt="cisco">
+            </div>
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+    <div class="container pt-4" id="kontakt">
+        <header class="mt-3 ">
+            <div class="d-flex justify-content-center">
+               
+                    <h1 class="">Kontakt</h1>
+                
+            </div>
+        </header>
+
+        <div class="jumbo-p mt-5 mb-5">
+            <p>Možete nas kontaktirati putem e-maila</p>
+
+            <p><a href="mailto:karlo.mihelec@tvz.hr">karlo.mihelec@tvz.hr</a></p>
+            <p><a href="mailto:tomislav.istuk@tvz.hr">tomislav.istuk@tvz.hr</a></p>
+            <p><a href="mailto:petar.gruden@tvz.hr">petar.gruden@tvz.hr</a></p>
+            <p><a href="mailto:karlo.lucas1.jpg@tvz.hr">karlo.lucas1.jpg@tvz.hr</a></p>
+            <p><a href="mailto:lucas.leon.vunic@tvz.hr">lucas.leon.vunic@tvz.hr</a></p>
+            <p>ili pritskom na gumb ispod</p>
+        </div>
+
+        <div class="jumbo-p mt-5 mb-5">
+
+            <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Kontaktirajte nas
+            </button>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header ">
+                            <h3 class="modal-title" id="exampleModalLabel">Kontakt</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+
+                            <form>
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" id="exampleInputEmail1" name="email"
+                                        aria-describedby="emailHelp" placeholder="e-mail" required>
+
+                                </div>
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" placeholder="naslov">
+                                </div>
+                                <div class="form-outline mb-3">
+                                    <textarea required class="form-control" id="form4Example3" rows="4"
+                                        placeholder="enter your message..."></textarea>
+                                </div>
+
+                                <select class="form-select" aria-label="Default select example" required>
+                                    <option value="" selected>Vrsta upita</option>
+                                    <option value="1">Informacija</option>
+                                    <option value="2">Tehnički problem</option>
+                                    <option value="3">Ostalo</option>
+                                </select>
+
+
+
+
+                        </div>
+                        <div class="modal-footer">
+
+
+                            <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+                            <button type="submit" name="submit" class="btn button">Send</button>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container-fluid footer">
+
+        <footer>
+
+            <div class="container">
+
+                <div class="d-flex justify-content-center pt-2">
+                    <h1 class="footH1">ALFA</h1>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <p class="copy">&copy Alfa team</p>
+                </div>
+
+            </div>
+
+        </footer>
+
+    </div>
+
+    <div>
+        <a href="#home">
+            <div class="toTop">
+
+
+                <svg style="zoom:2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-chevron-compact-up" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M7.776 5.553a.5.5 0 0 1 .448 0l6 3a.5.5 0 1 1-.448.894L8 6.56 2.224 9.447a.5.5 0 1 1-.448-.894l6-3z" />
+                </svg>
+
+
+            </div>
+        </a>
+    </div>
+
+
+
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
